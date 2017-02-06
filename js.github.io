@@ -2,15 +2,15 @@
 <head>
     <title>Java script</title></head>
 <body>
-<h2 align="center"> Task 1 </h2>
+    <h1 align="center"> Task 1 </h1>
     <font size="30">
     <p id="text">Hello World</p>
-</font>
+     </font>
     <button onclick="getText1()";>Red Text</button>
      <button onclick="getText2()";>Blue Text</button>
      <button onclick="getText3()";>Green Text</button>
     <script type="text/javascript">
- function getText1(){
+    function getText1(){
             var elem =  document.getElementById("text");
         elem.innerHTML ="Hello World"
     
@@ -33,12 +33,6 @@
         elem.style.color="green";
         
         }
-    </script>
-    
-    
-    
-    
+     </script>
     </body>
-
-
 </html>
