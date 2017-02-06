@@ -19,7 +19,7 @@
         }
         function Text2(){
             var elem =  document.getElementById("text");
-        elem.innerHTML ="Hello world</strong>";
+        elem.innerHTML ="Hello World</strong>";
       
     
         elem.style.color="blue";
