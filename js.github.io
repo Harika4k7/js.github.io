@@ -4,20 +4,20 @@
 <body>
     <h1 align="center"> Task 1 </h1>
     <font size="30">
-    <p id="text">Hello World</p>
+    <p id="text"><big>Hello World</big></p>
      </font>
-    <button onclick="getText1()";>Red Text</button>
-     <button onclick="getText2()";>Blue Text</button>
-     <button onclick="getText3()";>Green Text</button>
+    <button onclick="Text1()";>Red Text</button>
+     <button onclick="Text2()";>Blue Text</button>
+     <button onclick="Text3()";>Green Text</button>
     <script type="text/javascript">
-    function getText1(){
+    function Text1(){
             var elem =  document.getElementById("text");
         elem.innerHTML ="Hello World"
     
         elem.style.color="red";
         
         }
-        function getText2(){
+        function Text2(){
             var elem =  document.getElementById("text");
         elem.innerHTML ="Hello world</strong>";
       
@@ -25,7 +25,7 @@
         elem.style.color="blue";
         
         }
-        function getText3(){
+        function Text3(){
             var elem =  document.getElementById("text");
         elem.innerHTML ="Hello World";
        
